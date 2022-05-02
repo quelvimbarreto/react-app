@@ -1,11 +1,11 @@
 @font-face {
   font-family: Prata;
-  src: local(Prata), url(../Assets/fonts/Prata.ttf);
+  src: local(Prata), url(./Assets/fonts/Prata.ttf);
 }
 
 @font-face {
   font-family: Inter;
-  src: local(Inter), url(../Assets/fonts/Inter.ttf);
+  src: local(Inter), url(./Assets/fonts/Inter.ttf);
 }
 
 * {
@@ -114,13 +114,14 @@ header {
 .content-logo {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   padding-top: 20px;
   padding-bottom: 20px;
+  width: 100%;
 }
 
 .content-logo-itens {
-  margin: 6px;
+  gap: 5px;
 }
 
 .content-card {
@@ -129,7 +130,7 @@ header {
 }
 
 .card {
-  max-width: 45%;
+  max-width: 48%;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -155,9 +156,8 @@ header {
 }
 
 .content-2-item {
-  max-width: 45%;
-    line-height: 25px;
-    padding-right: 10px;
+  max-width: 48%;
+  line-height: 25px;
 }
 
 .container-bot {
@@ -183,12 +183,12 @@ footer {
   font-weight: 300;
 }
 
-.social-icon{
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 5px;
-  }
+.social-icon {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
 
 @media screen and (max-width: 720px) {
   .menu {
@@ -236,11 +236,15 @@ footer {
     width: 100%;
   }
 
-  .content-2{
-      flex-direction: column;
+  .content-2 {
+    flex-direction: column;
   }
 
-  .footer{
-      flex-direction: row;
+  .content-2-item {
+    max-width: 100%;
+  }
+
+  .footer {
+    flex-direction: row;
   }
 }
