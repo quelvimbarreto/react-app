@@ -129,13 +129,17 @@ header {
 }
 
 .card {
+<<<<<<< HEAD
   max-width: 49%;
+=======
+  max-width: 45%;
+>>>>>>> 895550643c410af66bf911e3e2254c932317b31d
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
 .card img {
-  width: 85%;
+  max-width: 100%;
   padding-bottom: 5px;
 }
 
@@ -149,13 +153,23 @@ header {
 
 .content-2 {
   display: flex;
+<<<<<<< HEAD
   justify-content: space-around;
+=======
+  justify-content: space-between;
+>>>>>>> 895550643c410af66bf911e3e2254c932317b31d
   margin: auto;
   max-width: 85%;
 }
 
 .content-2-item {
+<<<<<<< HEAD
     max-width: 49%;
+=======
+  max-width: 45%;
+    line-height: 25px;
+    padding-right: 10px;
+>>>>>>> 895550643c410af66bf911e3e2254c932317b31d
 }
 
 .container-bot {
