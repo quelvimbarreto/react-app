@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quelvim Barreto</title>
+<<<<<<< HEAD
+    <link rel="stylesheet" href="/01/Assets/css/styles.css" />
+=======
+    <link rel="stylesheet" href="./Assets/css/styles.css" />
+>>>>>>> 895550643c410af66bf911e3e2254c932317b31d
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <h4 id="logomarca">Quelvim Barreto</h4>
+        <input type="checkbox" id="toggler" />
+        <label for="toggler">
+<<<<<<< HEAD
+          <i class="ri-menu-line"><img src="../01/Assets/Hamburger Menu.svg" alt="#"></i>
+=======
+          <i class="ri-menu-line"><img src="./Assets/Hamburger Menu.svg" alt="#"></i>
+>>>>>>> 895550643c410af66bf911e3e2254c932317b31d
+        </label>
+        <div class="menu">
+          <ul class="list">
+            <li><a href="#">Articles</a></li>
+            <li><a href="#">Chats</a></li>
+            <li><a href="#">Awards</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </div>
+        <div id="nav-btn" class="btn"><a href="#">Get in Touch</a></div>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="container-top">
+        <div class="content-1">
+          <h1>Helping campanies build better, scalable software.</h1>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged.
+          </p>
+        </div>
+        <div class="content-logo">
+          <div class="content-logo-itens">
+<<<<<<< HEAD
+            <img src="../01/Assets/Logos/Walmart.svg" alt="#" />
+          </div>
+          <div class="content-logo-itens">
+            <img src="../01/Assets/Logos/JP Morgan.svg" alt="#" />
+          </div>
+          <div class="content-logo-itens">
+            <img src="../01/Assets/Logos/Visa.svg" alt="#" />
+          </div>
+          <div class="content-logo-itens">
+            <img src="../01/Assets/Logos/Tinder.svg" alt="#" />
+          </div>
+          <div class="content-logo-itens">
+            <img src="../01/Assets/Logos/Samsung.svg" alt="#" />
+          </div>
+          <div class="content-logo-itens">
+            <img src="../01/Assets/Logos/Verizon.svg" alt="#" />
+=======
+            <img src="./Assets/Logos/Walmart.svg" alt="#" />
+          </div>
+          <div class="content-logo-itens">
+            <img src="./Assets/Logos/JP Morgan.svg" alt="#" />
+          </div>
+          <div class="content-logo-itens">
+            <img src="./Assets/Logos/Visa.svg" alt="#" />
+          </div>
+          <div class="content-logo-itens">
+            <img src="./Assets/Logos/Tinder.svg" alt="#" />
+          </div>
+          <div class="content-logo-itens">
+            <img src="./Assets/Logos/Samsung.svg" alt="#" />
+          </div>
+          <div class="content-logo-itens">
+            <img src="./Assets/Logos/Verizon.svg" alt="#" />
+>>>>>>> 895550643c410af66bf911e3e2254c932317b31d
+          </div>
+        </div>
+        <div class="content-card">
+          <div class="card">
+<<<<<<< HEAD
+            <img src="../01/Assets/Spense.png" alt="#" />
+=======
+            <img src="./Assets/Spense.png" alt="#" />
+>>>>>>> 895550643c410af66bf911e3e2254c932317b31d
+            <h2>Spence.com</h2>
+            <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
+                consectetur, adipisci velit..." "There is no one who loves pain
+                itself, who seeks after it and wants to have it, simply because it
+                is pain..."
+            </p>
+          </div>
+          <div class="card">
+<<<<<<< HEAD
+            <img src="../01/Assets/YelpCamp.png" alt="#" />
+=======
+            <img src="./Assets/YelpCamp.png" alt="#" />
+>>>>>>> 895550643c410af66bf911e3e2254c932317b31d
+            <h2>YelpCamp.com</h2>
+            <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
+                consectetur, adipisci velit..." "There is no one who loves pain
+                itself, who seeks after it and wants to have it, simply because it
+                is pain..."
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container-mid">
+        <div class="content-2">
+          <div class="content-2-item">
+            <h2>A co-founder at one of the world's largest communities.</h2>
+            <p>
+              "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
+              consectetur, adipisci velit..." "There is no one who loves pain
+              itself, who seeks after it and wants to have it, simply because it
+              is pain..." "Neque porro quisquam est qui dolorem ipsum quia dolor
+              sit amet, consectetur, adipisci velit..." "There is no one who
+              loves pain itself, who seeks after it and wants to have it, simply
+              because it is pain..."
+            </p>
+          </div>
+          <div class="content-2-item">
+            <p>
+              "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
+              consectetur, adipisci velit..." "There is no one who loves pain
+              itself, who seeks after it and wants to have it, simply because it
+              is pain..." "Neque porro quisquam est qui dolorem ipsum quia dolor
+              sit amet, consectetur, adipisci velit..." "There is no one who
+              loves pain itself, who seeks after it and wants to have it, simply
+              because it is pain..."
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container-bot">
+        <div class="content-1">
+          <h2>TEXTO FINAL</h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book.
+          </p>
+          <div class="btn"><a href="#">Get in Touch</a></div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <footer>
+        <div class="footer">
+          <p>Quelvim Barreto</p>
+            <ul class="social-icon">
+<<<<<<< HEAD
+              <li><img src="../01/Assets/Social Icons/Twitter.svg"</li>
+              <li><img src="../01/Assets/Social Icons/LinkedIn.svg"</li>
+              <li><img src="../01/Assets/Social Icons/Github.svg"</li>
+=======
+              <li><img src="./Assets/Social Icons/Twitter.svg"</li>
+              <li><img src="./Assets/Social Icons/LinkedIn.svg"</li>
+              <li><img src="./Assets/Social Icons/Github.svg"</li>
+>>>>>>> 895550643c410af66bf911e3e2254c932317b31d
+            </ul>
+        </div>
+      </footer>
+  </body>
+</html>
