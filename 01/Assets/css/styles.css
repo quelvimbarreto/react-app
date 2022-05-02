@@ -40,7 +40,6 @@ h2 {
 
 p {
   padding-bottom: 10px;
-  padding-right: 10px;
   line-height: 25px;
 }
 
@@ -130,7 +129,7 @@ header {
 }
 
 .card {
-  max-width: 50%;
+  max-width: 49%;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -150,13 +149,13 @@ header {
 
 .content-2 {
   display: flex;
+  justify-content: space-around;
   margin: auto;
   max-width: 85%;
 }
 
 .content-2-item {
-    line-height: 25px;
-    padding-right: 10px;
+    max-width: 49%;
 }
 
 .container-bot {
