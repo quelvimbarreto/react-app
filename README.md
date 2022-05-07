@@ -1,15 +1,7 @@
-# Desafios de CSS
+## http://quelvimbarreto.github.io/01/
 
-## Repositório de desafios de CSS
+## http://quelvimbarreto.github.io/02/
 
+## http://quelvimbarreto.github.io/jornada-dev/
 
-https://www.codewell.cc/
-
-https://www.frontendpractice.com/
-
-
-
-## Sites
-
-
-### * [DESAFIO](https://www.codewell.cc/challenges/web-developer-portfolio--617d4897a383e41090a3e46f) - [MINHA VERSÃO](http://quelvimbarreto.github.io/01/)
+## http://quelvimbarreto.github.io/github-api/ok
