@@ -4,132 +4,165 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Quelvim Barreto</title>
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FOLHA DE ESTILOS -->
     <link rel="stylesheet" href="./Assets/css/styles.css" />
+
+    <title>Quelvim Barreto</title>
   </head>
   <body>
-    <header>
-      <nav class="navbar">
-        <h4 id="logomarca">Quelvim Barreto</h4>
-        <input type="checkbox" id="toggler" />
-        <label for="toggler">
-          <i class="ri-menu-line"><img src="./Assets/Hamburger Menu.svg" alt="#"></i>
-        </label>
-        <div class="menu">
-          <ul class="list">
-            <li><a href="#">Articles</a></li>
-            <li><a href="#">Chats</a></li>
-            <li><a href="#">Awards</a></li>
-            <li><a href="#">About</a></li>
-          </ul>
-        </div>
-        <div id="nav-btn" class="btn"><a href="#">Get in Touch</a></div>
-      </nav>
-    </header>
-    <div class="container">
-      <div class="container-top">
-        <div class="content-1">
-          <h1>Helping campanies build better, scalable software.</h1>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged.
-          </p>
-        </div>
-        <div class="content-logo">
-          <div class="content-logo-itens">
-            <img src="./Assets/Logos/Walmart.svg" alt="#" />
-          </div>
-          <div class="content-logo-itens">
-            <img src="./Assets/Logos/JP Morgan.svg" alt="#" />
-          </div>
-          <div class="content-logo-itens">
-            <img src="./Assets/Logos/Visa.svg" alt="#" />
-          </div>
-          <div class="content-logo-itens">
-            <img src="./Assets/Logos/Tinder.svg" alt="#" />
-          </div>
-          <div class="content-logo-itens">
-            <img src="./Assets/Logos/Samsung.svg" alt="#" />
-          </div>
-          <div class="content-logo-itens">
-            <img src="./Assets/Logos/Verizon.svg" alt="#" />
-          </div>
-        </div>
-        <div class="content-card">
-          <div class="card">
-            <img src="./Assets/Spense.png" alt="#" />
-            <h2>Spence.com</h2>
-            <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
-                consectetur, adipisci velit..." "There is no one who loves pain
-                itself, who seeks after it and wants to have it, simply because it
-                is pain..."
-            </p>
-          </div>
-          <div class="card">
-            <img src="./Assets/YelpCamp.png" alt="#" />
-            <h2>YelpCamp.com</h2>
-            <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
-                consectetur, adipisci velit..." "There is no one who loves pain
-                itself, who seeks after it and wants to have it, simply because it
-                is pain..."
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="container-mid">
-        <div class="content-2">
-          <div class="content-2-item">
-            <h2>A co-founder at one of the world's largest communities.</h2>
-            <p>
-              "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
-              consectetur, adipisci velit..." "There is no one who loves pain
-              itself, who seeks after it and wants to have it, simply because it
-              is pain..." "Neque porro quisquam est qui dolorem ipsum quia dolor
-              sit amet, consectetur, adipisci velit..." "There is no one who
-              loves pain itself, who seeks after it and wants to have it, simply
-              because it is pain..."
-            </p>
-          </div>
-          <div class="content-2-item">
-            <p>
-              "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
-              consectetur, adipisci velit..." "There is no one who loves pain
-              itself, who seeks after it and wants to have it, simply because it
-              is pain..." "Neque porro quisquam est qui dolorem ipsum quia dolor
-              sit amet, consectetur, adipisci velit..." "There is no one who
-              loves pain itself, who seeks after it and wants to have it, simply
-              because it is pain..."
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="container-bot">
-        <div class="content-1">
-          <h2>TEXTO FINAL</h2>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
-          </p>
-          <div class="btn"><a href="#">Get in Touch</a></div>
-        </div>
-      </div>
-    </div>
-    </div>
-    <footer>
-        <div class="footer">
-          <p>Quelvim Barreto</p>
-            <ul class="social-icon">
-              <li><img src="./Assets/Social Icons/Twitter.svg"</li>
-              <li><img src="./Assets/Social Icons/LinkedIn.svg"</li>
-              <li><img src="./Assets/Social Icons/Github.svg"</li>
+    <section class="container">
+      <section class="container">
+        <section class="header">
+          <span class="h-title">spence.</span>
+          <!-- NAVEGAÇÃO -->
+          <div class="h-menu">
+            <ul class="h-menu-list">
+              <li class="h-menu-list-item"><a href="#">Business</a></li>
+              <li class="h-menu-list-item"><a href="#">Pricing</a></li>
+              <li class="h-menu-list-item"><a href="#">Features</a></li>
             </ul>
+          </div>
+          <!-- BOTÕES -->
+          <div class="h-hamburger">
+            <img src="./Assets/img/Hamburger Menu.svg" />
+          </div>
+          <div class="h-btn">
+            <span class="btn1"><a href="#">Login</a></span>
+            <span class="btn2"><a href="#">Get Started</a></span>
+          </div>
+        </section>
+        <!-- INÍCIO DO CONTEÚDO -->
+        <section class="flex-container">
+          <div class="flex-items">
+            <h1>Share your unfiltered thoughts. Get paid</h1>
+            <p>
+              Magna nisi ullamco quis pariatur sint dolor dolor cupidatat
+              voluptate qui deserunt. Ullamco ipsum commodo quis quis velit
+              proident Lorem ea. Velit ex aliquip elit qui in exercitation
+              nostrud adipisicing occaecat magna deserunt.
+            </p>
+            <ul>
+              <li>Receive 99% off the earnings.</li>
+              <li>Get paid via Debit Card, ACH or PayPal.</li>
+              <li>Whitdraw yours earnings anytime.</li>
+            </ul>
+            <input type="text" />
+            <span class="btn2"><a href="#">Get Started</a></span>
+          </div>
+          <div class="flex-items">
+            <img src="./Assets/img/Hero Image (Desktop).png" alt="foto" />
+          </div>
+        </section>
+      </section>
+      <section class="flex-container">
+        <img
+          class="logo"
+          src="./Assets/img/Facebook Logo.png"
+          alt="facebook logo"
+        />
+        <img
+          class="logo"
+          src="./Assets/img/Dribbble Logo.png"
+          alt="dribble logo"
+        />
+        <img
+          class="logo"
+          src="./Assets/img/Youtube Logo.png"
+          alt="youtube logo"
+        />
+        <img
+          class="logo"
+          src="./Assets/img/Pinterest Logo.png"
+          alt="pinterest logo"
+        />
+        <img
+          class="logo"
+          src="./Assets/img/Twitter Logo.png"
+          alt="twitter logo"
+        />
+        <img
+          class="logo"
+          src="./Assets/img/Reddit Logo.png"
+          alt="reddit logo"
+        />
+        <img
+          class="logo"
+          src="./Assets/img/Google Logo.png"
+          alt="google logo"
+        />
+        <img class="logo" src="./Assets/img/Slack Logo.png" alt="slack logo" />
+      </section>
+      <section class="flex-container">
+        <div class="flex-items">
+          <h1>Share your unfiltered thoughts. Get paid</h1>
+          <p>
+            Magna nisi ullamco quis pariatur sint dolor dolor cupidatat
+            voluptate qui deserunt. Ullamco ipsum commodo quis quis velit
+            proident Lorem ea. Velit ex aliquip elit qui in exercitation nostrud
+            adipisicing occaecat magna deserunt.
+          </p>
+        </div>
+        <div class="flex-items">
+          <img src="./Assets/img/Phone Mockup.png" alt="foto" />
+        </div>
+      </section>
+      <section class="flex-container">
+        <div class="flex-items">
+          <img src="./Assets/img/Text Editor.png" alt="foto" />
+        </div>
+        <div class="flex-items">
+          <h1>Share your unfiltered thoughts. Get paid</h1>
+          <p>
+            Magna nisi ullamco quis pariatur sint dolor dolor cupidatat
+            voluptate qui deserunt. Ullamco ipsum commodo quis quis velit
+            proident Lorem ea. Velit ex aliquip elit qui in exercitation nostrud
+            adipisicing occaecat magna deserunt.
+          </p>
+        </div>
+      </section>
+      <!-- FIM DO CONTEÚDO -->
+      <footer class="footer">
+        <div class="f-description">
+          <h3>spence.</h3>
+          <p>
+            Tempor irure qui excepteur ipsum culpa aliquip aute. Veniam labore
+            ut qui excepteur amet ipsum ullamco non duis consequat nisi nulla
+            aliqua. Ullamco eu quis nostrud Lorem eiusmod cillum.
+          </p>
+        </div>
+        <div class="f-links">
+          <div class="f-list">
+            <h3>Sitemap</h3>
+            <a href="#">Homepage</a>
+          </div>
+          <div class="f-list">
+            <h3>Resources</h3>
+            <a href="#">Suport</a>
+            <a href="#">Contact</a>
+            <a href="#">FAQ</a>
+          </div>
+          <div class="f-list">
+            <h3>Company</h3>
+            <a href="#">About</a>
+            <a href="#">Customers</a>
+            <a href="#">Blog</a>
+          </div>
+          <div class="f-list">
+            <h3>Oportunities</h3>
+            <a href="#">Jobs</a>
+          </div>
         </div>
       </footer>
+    </section>
   </body>
 </html>

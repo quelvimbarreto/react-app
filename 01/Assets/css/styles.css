@@ -193,7 +193,7 @@ footer {
 @media screen and (max-width: 720px) {
   .menu {
     width: 100%;
-    max-height: 0;
+    max-height: 0px;
     overflow: hidden;
   }
 
@@ -220,6 +220,10 @@ footer {
   .content-1 {
     max-width: 100%;
   }
+
+  .content-logo {
+    justify-content: space-evenly;
+ }
 
   .content-card {
     display: flex;
