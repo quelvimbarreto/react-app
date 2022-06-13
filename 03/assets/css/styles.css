@@ -266,7 +266,7 @@ body {
 .hero {
     display: flex;
     height: 400px;
-    background-image: url("assets/img/close-up-of-businessman-with-digital-tablet.jpg");
+    background-image: url("../assets/img/close-up-of-businessman-with-digital-tablet.jpg");
     background-position: center;
     background-size: cover;
 }
