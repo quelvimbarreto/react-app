@@ -29,10 +29,12 @@
     --font-family: 'Roboto', sans-serif;
 }
 
-.message.red{
+
+.message.red {
     margin-top: 50px;
     background-color: #c52c2c;
 }
+
 /* ============== Reset / Normalize / Sanitize =============== */
 body,
 h1,
@@ -274,6 +276,11 @@ body {
 
 /* ===================== HERO CAROUSEL ====================== */
 
+.hero .container {
+    max-width: 100%;
+    margin-bottom: 80px;
+
+
 .swiper {
     width: 100%;
     height: 100%;
@@ -282,7 +289,6 @@ body {
 .swiper-slide {
     text-align: center;
     font-size: 18px;
-    margin-bottom: 50px;
 
     /* Center slide text vertically */
     display: -webkit-box;
@@ -306,6 +312,25 @@ body {
     object-fit: cover;
 }
 
+
+.swiper-slide .card {
+    padding: 16px;
+}
+
+.swiper-slide .card h2 {
+    font-size: var(--font-7);
+}
+
+.swiper-slide .card p {
+    font-size: var(--font-4);
+}
+
+@media(min-width:900px) {
+    .hero .container {
+        max-width: 1240px;
+    }
+}
+=======
 .swiper-slide .card{
     padding: 16px;
 }
@@ -317,7 +342,6 @@ body {
 .swiper-slide .card p{
     font-size: var(--font-4);
 }
-
 
 /* ================================================================= */
 /* PRICES*/
@@ -442,9 +466,10 @@ body {
 
 
 /* MESSAGE */
-#services.message{
+
+#services.message {
     background-color: #c52c2c;
-    margin-top: 50px;
+  margin-top: 80px;
 }
 
 .message {
@@ -466,7 +491,8 @@ body {
     margin: 0 auto;
 }
 
-.message .container{
+.message .container {
+
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -483,7 +509,8 @@ body {
     text-align: left;
 }
 
-.message .item img{
+
+.message .item img {
     padding: 8px;
     box-sizing: border-box;
 }
@@ -498,11 +525,12 @@ body {
         line-height: 1.33;
     }
 
-    .message .container{
+
+    .message .container {
         flex-direction: row;
         flex-wrap: wrap;
     }
-    
+
     .message .item {
         display: flex;
         box-sizing: border-box;
