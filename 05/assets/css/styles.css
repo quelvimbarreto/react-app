@@ -279,7 +279,7 @@ body {
 .hero .container {
     max-width: 100%;
     margin-bottom: 80px;
-
+}
 
 .swiper {
     width: 100%;
@@ -330,7 +330,7 @@ body {
         max-width: 1240px;
     }
 }
-=======
+
 .swiper-slide .card{
     padding: 16px;
 }
