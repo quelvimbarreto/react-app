@@ -25,11 +25,22 @@ const carousel = new Swiper(".carousel", {
 // SLIDER 2
 
 const largura = function () {
-  const janela = window.innerWidth;
-  if (janela > 899) {
+const janela = window.innerWidth;
+
+  if (janela > 1200) {
     const cardSlider = new Swiper(".cardSlider", {
       // Optional parameters
       slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  } else if (janela > 500) {
+    const cardSlider = new Swiper(".cardSlider", {
+      // Optional parameters
+      slidesPerView: 2,
       spaceBetween: 30,
       pagination: {
         el: ".swiper-pagination",
